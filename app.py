@@ -6,5 +6,5 @@ app = Flask(__name__)
 @app.route('/')
 def welcome():
     return {
-        'Result': 'Welcome to whatsapp tool kit!'
+        'Result': 'Welcome to WhatsApp tool kit!'
     }
